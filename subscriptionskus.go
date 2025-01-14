@@ -4,10 +4,11 @@ import (
 	"context"
 	_ "embed"
 	"errors"
-	"github.com/TicketsBot/common/model"
+
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/jadevelopmentgrp/Tickets-Utilities/model"
 )
 
 type SubscriptionSkus struct {

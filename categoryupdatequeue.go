@@ -3,9 +3,10 @@ package database
 import (
 	"context"
 	_ "embed"
-	"github.com/TicketsBot/common/model"
-	"github.com/jackc/pgx/v4/pgxpool"
 	"time"
+
+	"github.com/jackc/pgx/v4/pgxpool"
+	"github.com/jadevelopmentgrp/Tickets-Utilities/model"
 )
 
 type CategoryUpdateQueue struct {

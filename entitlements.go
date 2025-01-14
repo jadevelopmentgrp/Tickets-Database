@@ -4,11 +4,12 @@ import (
 	"context"
 	_ "embed"
 	"errors"
-	"github.com/TicketsBot/common/model"
+	"time"
+
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
-	"time"
+	"github.com/jadevelopmentgrp/Tickets-Utilities/model"
 )
 
 type Entitlements struct {
