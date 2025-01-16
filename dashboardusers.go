@@ -3,9 +3,10 @@ package database
 import (
 	"context"
 	_ "embed"
+	"time"
+
 	"github.com/jackc/pgtype"
 	"github.com/jackc/pgx/v4/pgxpool"
-	"time"
 )
 
 type DashboardUsersTable struct {

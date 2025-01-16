@@ -3,6 +3,7 @@ package database
 import (
 	"context"
 	_ "embed"
+
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 )

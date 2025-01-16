@@ -2,10 +2,11 @@ package database
 
 import (
 	"context"
+	"time"
+
 	"github.com/jackc/pgx/pgtype"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
-	"time"
 )
 
 type WhitelabelUsers struct {

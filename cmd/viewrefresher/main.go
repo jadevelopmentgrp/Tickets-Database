@@ -30,7 +30,7 @@ func doRefresh(db *database.Database) {
 	logrus.Info("Starting refresh...")
 
 	for _, view := range db.Views() {
-		if err := view.Refresh(); err != nil {
+		if err := view.Refresh(context.Background()); err != nil {
 			logrus.Errorf("Error refreshing view: %s", err.Error())
 		}
 	}

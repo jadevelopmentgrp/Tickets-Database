@@ -2,10 +2,11 @@ package database
 
 import (
 	"context"
+	"time"
+
 	"github.com/jackc/pgtype"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
-	"time"
 )
 
 func toInterval(duration time.Duration) (interval pgtype.Interval, err error) {
