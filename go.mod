@@ -9,7 +9,7 @@ require (
 	github.com/jackc/pgtype v1.14.0
 	github.com/jackc/pgx v3.6.2+incompatible
 	github.com/jackc/pgx/v4 v4.18.3
-	github.com/jadevelopmentgrp/Tickets-Utilities v1.0.1
+	github.com/jadevelopmentgrp/Tickets-Utilities v1.0.2
 	github.com/json-iterator/go v1.1.12
 	github.com/sirupsen/logrus v1.9.0
 )
